@@ -1,0 +1,7 @@
+.idea
+.claude/commands
+src/lib/__pycache__
+src/services/__pycache__/
+src/10x_terminal.egg-info/
+src/ui/__pycache__/
+src/cli/__pycache__/
