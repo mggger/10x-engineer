@@ -34,29 +34,11 @@ pip install -e .
 ### Usage
 
 ```bash
-# Or use the short alias
 aai
 ```
 
-### Example Workflow
-
-```bash
-# Start multiple AI sessions simultaneously
-aai --claude-sessions 10 --codex-sessions 10 --gemini-sessions 5
-
-# Switch between sessions while AI processes run in background
-# Press 'j/k' to navigate, 'Enter' to switch, 'c' to create new session
-```
-
-## AI Tool Integration
-
-- **Claude Code**: Full integration with command-line coding sessions
-- **OpenAI Codex**: Direct API integration for code generation tasks
-- **Gemini CLI**: Support for Google's AI development tools
-- **Extensible**: Easy to add support for new AI tools and APIs
 
 ## Why async-ai-engineer?
-
 Traditional terminal workflows force you to wait for AI responses, breaking your development flow. async-ai-engineer changes this by:
 
 - Running AI tools in parallel background processes
